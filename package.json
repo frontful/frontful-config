@@ -1,0 +1,24 @@
+{
+  "name": "frontful-config",
+  "version": "0.0.5",
+  "private": false,
+  "description": "Universal and isomorphic configuration provider",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frontful/frontful-config.git"
+  },
+  "scripts": {
+    "build": "babel-preset-frontful build",
+    "deploy": "babel-preset-frontful deploy"
+  },
+  "dependencies": {
+    "deep-extend": "^0.4.1",
+    "js-yaml": "^3.8.3",
+    "object-path": "^0.11.4"
+  },
+  "devDependencies": {
+    "babel-preset-frontful": "0.x || 1.x",
+    "eslint-config-frontful": "0.x || 1.x"
+  }
+}
