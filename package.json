@@ -1,6 +1,6 @@
 {
   "name": "frontful-config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": false,
   "description": "Universal and isomorphic configuration provider",
   "license": "MIT",
@@ -8,6 +8,7 @@
     "type": "git",
     "url": "https://github.com/frontful/frontful-config.git"
   },
+  "main": "./initialize/index.js",
   "scripts": {
     "build": "babel-preset-frontful build",
     "deploy": "babel-preset-frontful deploy"
