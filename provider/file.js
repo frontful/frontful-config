@@ -4,6 +4,7 @@ const path = require('path')
 const yaml = require('./yaml')
 
 module.exports = function provider(filename) {
+  filename = path.resolve(process.cwd(), filename)
   const extension = path.extname(filename)
 
   switch (extension) {
