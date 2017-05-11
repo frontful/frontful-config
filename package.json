@@ -1,6 +1,6 @@
 {
   "name": "frontful-config",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "private": true,
   "description": "Configuration provider for isomorphic applications and Frontful infrastructure",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "deploy": "babel-preset-frontful deploy"
   },
   "dependencies": {
-    "deep-extend": "^0.4.1",
+    "deep-extend": "^0.5.0",
     "js-yaml": "^3.8.3",
     "object-path": "^0.11.4"
   },
