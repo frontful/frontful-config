@@ -1,8 +1,8 @@
 {
   "name": "frontful-config",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "private": true,
-  "description": "Configuration provider for isomorphic applications and Frontful infrastructure",
+  "description": "Configuration provider for isomorphic applications, packages and Frontful infrastructure",
   "license": "MIT",
   "repository": {
     "type": "git",
