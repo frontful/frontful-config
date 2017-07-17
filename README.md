@@ -38,7 +38,7 @@ npm install -s frontful-config
 
 ### Integration
 
-##### Configuration provider for packages
+#### Configuration provider for packages
 
 Create your own configuration property in `package.json` and extract it using `frontful-config/provider` utility
 ```javascript
@@ -52,7 +52,7 @@ import provider from `frontful-config/provider`
 const config = provider('my_config')
 ```
 
-##### Configuration provider for applications
+#### Configuration provider for applications
 
 1. Create configuration file as `.js`, `.json` or `.yaml` file and specify name of config file in `frontful.config` property in `package.json`. `frontful.config` must contain three properties to ensure that potential secrets and credentials needed on server do not get exposed in browser
     - `browser` - config object available in browser and on server as `frontful-config/browser`
