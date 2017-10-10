@@ -1,6 +1,6 @@
 {
   "name": "frontful-config",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "private": true,
   "description": "Configuration provider for isomorphic applications, packages and Frontful infrastructure",
   "license": "MIT",
@@ -21,7 +21,7 @@
     "object-path": "^0.11.4"
   },
   "devDependencies": {
-    "babel-preset-frontful": "0.x || 1.x",
-    "eslint-config-frontful": "0.x || 1.x"
+    "babel-preset-frontful": "2.x",
+    "eslint-config-frontful": "2.x"
   }
 }
