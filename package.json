@@ -1,6 +1,6 @@
 {
   "name": "frontful-config",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "private": true,
   "description": "Configuration provider for isomorphic applications, packages and Frontful infrastructure",
   "license": "MIT",
