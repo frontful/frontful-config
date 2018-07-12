@@ -13,4 +13,4 @@ if (typeof window !== 'undefined') {
   }
 }
 
-module.exports = config
+export default config
