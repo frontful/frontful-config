@@ -1,6 +1,6 @@
 {
   "name": "frontful-config",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "private": true,
   "description": "Configuration provider for isomorphic applications, packages and Frontful infrastructure",
   "license": "MIT",
@@ -14,6 +14,9 @@
     "deploy": "yarn test && babel-preset-frontful deploy",
     "test": "yarn test:eslint",
     "test:eslint": "node ./node_modules/eslint/bin/eslint.js --max-warnings 0 ."
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "deep-extend": "^0.6.0",
